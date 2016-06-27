@@ -3,12 +3,12 @@ SwaggerWcf has a bug: it fails to generate "swagger.json" file if service's cont
 
 This is a ready-to-test solution with service logs tracing enabled ("Traces.svclog" will be automatically created near the "csproj" file)
 
-Try http://localhost:58590/DemoService.svc/json/ping to make sure that service is running
-Try http://localhost:58590/api-docs/ to see Swagger ui
+Try [http://localhost:58590/DemoService.svc/json/ping](http://localhost:58590/DemoService.svc/json/ping) to make sure that service is running  
+Try [http://localhost:58590/api-docs/](http://localhost:58590/api-docs/) to see Swagger ui  
 Please, note that port number may change on your local machine because of IIS Express configuration.
 
 ## Stacktrace
-Swagger throws *NullReferenceException* with the following stacktrace:
+Swagger throws **NullReferenceException** with the following stacktrace:
 ```
 SwaggerWcf.Support.Mapper.GetParameter(TypeFormat typeFormat, ParameterInfo parameter, SwaggerWcfParameterAttribute settings, String uriTemplate, IList`1 definitionsTypesList)
 SwaggerWcf.Support.Mapper.&lt;GetActions&gt;d__4.MoveNext()
