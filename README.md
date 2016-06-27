@@ -1,0 +1,2 @@
+# SwaggerWcfBug
+SwaggerWcfBug (complex types)
