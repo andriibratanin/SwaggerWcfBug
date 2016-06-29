@@ -1,4 +1,4 @@
-**NOTE** Thanks to @abelsilva, the bug, described in this repository was fixed in Swagger 1.0.11, so this repository serves only for historical purpose.
+**NOTE** Thanks to @abelsilva, the bug, described in this repository was fixed in Swagger 0.1.11, so this repository serves only for historical purpose.
 
 # SwaggerWcfBug
 SwaggerWcf had a bug: it failed to generate "swagger.json" file if service's contract contained lists of complex types. It only reproduced if parameter name was not included into an uri's templete (binding does not matter).
